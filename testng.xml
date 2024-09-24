@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test thread-count="5" parallel="tests" name="Test">
+    <classes>
+      <class name="com.pabb.staarcms.commercetest.CreateProposalAndRejecttest"/>
+      <class name="com.pabb.staarcms.commercetest.CreateSalesOrdertest"/>
+      <class name="com.pabb.staarcms.commercetest.VerifyListOfProposalsinTheDraftStagetest"/>
+      <class name="com.pabb.staarcms.third_partytest.ModifyThirdPartytest"/>
+      <class name="com.pabb.staarcms.shipmentstest.Modifyshipmenttest"/>
+      <class name="com.pabb.staarcms.third_partytest.ListOfCustomerstest"/>
+      <class name="com.pabb.staarcms.third_partytest.VerifyThirdPartyCreatedAppearedinListtest"/>
+      <class name="com.pabb.staarcms.third_partytest.CreateaThirdPartyasCustomerWithMandatoryFieldstest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
